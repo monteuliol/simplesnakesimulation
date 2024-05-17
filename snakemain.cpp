@@ -25,8 +25,8 @@ void setup()
 
 void draw()
 {
-    system("cls"); //clear console
-
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {0,0});
+   
     for(int i = 0; i < width+2; i++)
     cout << "#";
     cout << endl;
